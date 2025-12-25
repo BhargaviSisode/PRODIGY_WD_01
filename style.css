@@ -1,5 +1,9 @@
+body {
+  background-color: #111827;
+  color: white;
+}
+
 * {
-  <link rel="stylesheet" href="style.css">
   margin: 0;
   padding: 0;
   box-sizing: border-box;
