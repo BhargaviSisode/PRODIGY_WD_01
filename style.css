@@ -40,19 +40,18 @@ header {
   font-weight: bold;
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 1.5rem;
-}
-
 .nav-links a {
-  color: #ffffff;
+  color: #d1d5db;              /* light gray text normally */
   text-decoration: none;
   font-weight: 500;
   padding: 0.3rem 0.6rem;
   border-radius: 4px;
   transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.nav-links a:hover {
+  background-color: #ffffff;   /* white background on hover */
+  color: #111827;              /* dark text on hover */
 }
 
 /* Hover effect on menu items */
